@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
 
   spec.metadata["plugin_type"] = "theme"
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/videlais/opentextbook-theme"
+  spec.metadata["source_code_uri"] = "https://github.com/videlais/opentextbook-theme.git"
   spec.metadata["changelog_uri"] = "https://github.com/videlais/opentextbook-theme/blob/main/CHANGELOG.md"
   spec.metadata["documentation_uri"] = "https://github.com/videlais/opentextbook-theme/blob/main/USAGE.md"
 
@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "jekyll", "~> 4.3"
   spec.add_runtime_dependency "jekyll-feed", "~> 0.12"
-  spec.add_runtime_dependency "jekyll-sitemap", ">= 1.0"
+  spec.add_runtime_dependency "jekyll-sitemap", "~> 1.0"
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.1"
 
   spec.add_development_dependency "html-proofer", "~> 5.0"
