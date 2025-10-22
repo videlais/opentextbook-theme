@@ -1,0 +1,53 @@
+name: Bug Report
+description: Report a bug or issue with the OpenTextbook theme
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+
+  - type: input
+    id: jekyll-version
+    attributes:
+      label: Jekyll Version
+      description: What version of Jekyll are you using?
+      placeholder: e.g., 4.3.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug and what you expected to happen
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this issue?
+      placeholder: |
+        1. Go to...
+        2. Click on...
+        3. See error...
+    validations:
+      required: true
+
+  - type: textarea
+    id: config
+    attributes:
+      label: _config.yml
+      description: Please share your _config.yml file (remove any sensitive information)
+      render: yaml
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Build Logs
+      description: Please copy and paste any relevant build output or error messages
+      render: shell

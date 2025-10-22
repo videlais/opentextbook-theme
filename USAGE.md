@@ -49,6 +49,40 @@ Visit `http://localhost:4000` to preview your site.
 
 ## Creating Content
 
+### Using Styled Blockquotes
+
+The theme includes WCAG AAA compliant blockquotes with automatic styling. Simply start your blockquote with a specific **bold** keyword:
+
+```markdown
+> **Information** General information for readers.
+
+> **Warning** Important warnings or cautions.
+
+> **Note** Additional context or explanations.
+
+> **Tip** Helpful suggestions or pro tips.
+
+> **Example** Code examples or demonstrations.
+
+> **Important** Critical information that must be noted.
+```
+
+The JavaScript will automatically:
+
+- Detect the keyword at the start of the blockquote
+- Apply appropriate CSS classes for styling
+- Add ARIA labels and roles for screen readers
+- Provide visual icons and color coding
+
+Each blockquote type includes:
+
+- Automatic styling based on content detection
+- Unique colors and icons for visual distinction
+- High contrast support for accessibility
+- Dark mode variants
+- Print-friendly styling
+- Screen reader support with appropriate ARIA attributes
+
 ### Adding a New Chapter
 
 1. Create a new file in `_chapters/`:

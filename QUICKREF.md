@@ -59,10 +59,37 @@ layout: chapter
 
 Your content here...
 
+> **Tip** Use styled blockquotes to highlight important information. The JavaScript will automatically detect and style them.
+
 ## Summary
 
 Chapter summary...
 ```
+
+## Blockquote Types
+
+Blockquotes are automatically styled based on their starting keyword:
+
+```markdown
+> **Information** Information blockquote
+
+> **Warning** Warning blockquote  
+
+> **Note** Note blockquote
+
+> **Tip** Tip blockquote
+
+> **Example** Example blockquote
+
+> **Important** Important blockquote
+```
+
+The JavaScript automatically applies:
+
+- CSS classes for visual styling
+- ARIA labels for screen readers
+- Appropriate semantic roles
+- Icons and color coding
 
 ## Page Template
 

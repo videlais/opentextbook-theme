@@ -1,5 +1,8 @@
 source "https://rubygems.org"
 
+# Specify the theme gemspec
+gemspec
+
 # Jekyll
 gem "jekyll", "~> 4.3.0"
 

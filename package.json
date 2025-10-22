@@ -1,0 +1,36 @@
+{
+  "name": "opentextbook-theme",
+  "version": "1.0.1",
+  "description": "A modern, accessible Jekyll theme for open textbooks and educational content",
+  "keywords": [
+    "jekyll",
+    "theme",
+    "textbook",
+    "education",
+    "accessibility",
+    "wcag",
+    "github-pages"
+  ],
+  "homepage": "https://github.com/videlais/opentextbook-theme",
+  "bugs": {
+    "url": "https://github.com/videlais/opentextbook-theme/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Dan Cox",
+    "email": "dan.cox@videlais.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/videlais/opentextbook-theme.git"
+  },
+  "devDependencies": {
+    "pa11y-ci": "^3.0.1"
+  },
+  "scripts": {
+    "test": "bundle exec jekyll build && pa11y-ci --sitemap _site/sitemap.xml --standard WCAG2AAA",
+    "build": "bundle exec jekyll build",
+    "serve": "bundle exec jekyll serve",
+    "accessibility-test": "pa11y-ci --sitemap _site/sitemap.xml --standard WCAG2AAA"
+  }
+}

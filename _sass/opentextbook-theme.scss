@@ -1,0 +1,10 @@
+// OpenTextbook Theme Main SCSS
+// This file imports all the theme's SCSS partials
+
+@import "opentextbook-theme/base";
+@import "opentextbook-theme/layout";
+@import "opentextbook-theme/components";
+@import "opentextbook-theme/accessibility";
+@import "opentextbook-theme/responsive";
+@import "opentextbook-theme/print";
+@import "opentextbook-theme/themes";

@@ -5,7 +5,39 @@ All notable changes to the OpenTextbook Theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.0] - 2025-10-19
+## [1.0.1] - 2025-10-22
+
+### Added
+
+- Theme packaging infrastructure for distribution
+- Ruby gemspec file (`opentextbook-theme.gemspec`) for gem packaging
+- GitHub repository metadata and templates:
+  - Issue templates for bug reports and feature requests
+  - Contributing guidelines (`.github/CONTRIBUTING.md`)
+  - CI/CD workflow for automated testing (`.github/workflows/test.yml`)
+- Development tooling:
+  - Package.json with accessibility testing scripts
+  - Ruby version specification (`.ruby-version`)
+  - Enhanced .gitignore for gem builds
+- Screenshot directory structure for theme showcase
+- Enhanced blockquotes include with JavaScript functionality:
+  - Automatic detection and styling of blockquotes based on content
+  - WCAG AAA compliant ARIA roles and labels
+  - Support for 6 blockquote types with visual icons
+
+### Changed
+
+- Updated email address in gemspec and package.json to `dan.cox@videlais.com`
+- Improved documentation with proper theme distribution information
+- Enhanced blockquote usage examples across all documentation
+- Updated USAGE.md to reflect automatic JavaScript blockquote detection
+
+### Fixed
+
+- Markdown formatting issues in documentation files
+- Proper newline endings in various files
+
+## [1.0.0] - 2025-10-22
 
 ### Added
 
@@ -46,7 +78,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Mobile-friendly design
 - Code syntax highlighting support
 - Table styling
-- Blockquote styling
+- Enhanced WCAG AAA compliant blockquotes with 6 types (info, warning, note, tip, example, important)
+- Automatic blockquote styling with JavaScript detection
+- Comprehensive blockquote accessibility features (ARIA roles, labels, icons)
 - Image optimization
 - Chapter-based content organization
 - Automatic sitemap generation
@@ -79,4 +113,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Version History
 
-- **1.0.0** (October 19, 2025): Initial release with complete theme infrastructure from Learning React
+- **1.0.1** (October 22, 2025): Theme packaging and distribution enhancements
+- **1.0.0** (October 22, 2025): Initial release with complete theme infrastructure from Learning React

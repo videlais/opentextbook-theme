@@ -21,6 +21,16 @@ Chapters are automatically ordered based on the `order` field in the front matte
 - Insert new chapters between existing ones
 - Maintain a clear progression through your content
 
+## Accessibility Features
+
+This theme includes several accessibility-first features:
+
+> **Information** All blockquotes include appropriate ARIA labels and high contrast support. The enhanced JavaScript automatically applies proper accessibility attributes based on content.
+
+> **Tip** Use keyboard navigation (Tab key) to move between chapter navigation buttons. The theme is fully keyboard accessible.
+
+> **Important** The theme meets WCAG 2.1 AAA standards for accessibility. All content is designed with inclusive access in mind.
+
 ## Summary
 
 Use as many chapters as needed to organize your textbook content effectively.

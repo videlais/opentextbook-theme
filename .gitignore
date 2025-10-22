@@ -23,6 +23,12 @@ Gemfile.lock
 node_modules/
 package-lock.json
 
+# Gem build files
+*.gem
+
 # Temporary files
 *.log
 *.tmp
+
+# Test files (optional)
+test-blockquotes.md

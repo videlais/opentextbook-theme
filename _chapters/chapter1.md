@@ -66,7 +66,21 @@ Ordered lists:
 
 ### Blockquotes
 
-> This is a blockquote. Use it to highlight important information or quotes from other sources.
+The theme supports several types of accessible blockquotes that are automatically styled:
+
+> This is a standard blockquote. Use it to highlight important information or quotes from other sources.
+
+> **Information** This is an information blockquote for general information. The JavaScript will automatically detect this and apply appropriate styling and accessibility attributes.
+
+> **Warning** This is a warning blockquote for important notices. It will be styled with warning colors and icons.
+
+> **Note** This is a note blockquote for additional context. Perfect for supplementary information.
+
+> **Tip** This is a tip blockquote for helpful suggestions. Great for pro tips and best practices.
+
+> **Example** This is an example blockquote for code examples or demonstrations. Use it to highlight practical applications.
+
+> **Important** This is an important blockquote for critical information. It draws attention to must-know content.
 
 ### Images
 
