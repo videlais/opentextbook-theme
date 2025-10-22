@@ -1,0 +1,15 @@
+{
+  "defaults": {
+    "standard": "WCAG2AAA",
+    "timeout": 30000,
+    "wait": 1000,
+    "chromeLaunchConfig": {
+      "ignoreHTTPSErrors": true
+    }
+  },
+  "urls": [
+    "http://localhost:4000/",
+    "http://localhost:4000/chapters/",
+    "http://localhost:4000/accessibility/"
+  ]
+}
