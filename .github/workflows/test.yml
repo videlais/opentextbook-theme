@@ -31,9 +31,7 @@ jobs:
       run: bundle exec jekyll build
 
     - name: Test HTML
-      run: |
-        gem install html-proofer
-        bundle exec htmlproofer ./_site --disable-external
+      run: bundle exec htmlproofer ./_site --disable-external
 
     - name: Test accessibility with Pa11y
       run: |
