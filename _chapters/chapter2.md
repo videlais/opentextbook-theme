@@ -31,6 +31,26 @@ This theme includes several accessibility-first features:
 
 > **Important** The theme meets WCAG 2.1 AAA standards for accessibility. All content is designed with inclusive access in mind.
 
+## Code Examples with Copy Functionality
+
+Each code block includes a copy button for easy use:
+
+```yaml
+# Example _config.yml configuration
+title: "My Educational Resource"
+description: "A comprehensive learning guide"
+collections:
+  chapters:
+    output: true
+    permalink: /:collection/:name/
+```
+
+The copy buttons are fully accessible and work with:
+
+- Mouse clicks
+- Keyboard navigation (Tab + Enter/Space)
+- Screen readers with proper ARIA labels
+
 ## Summary
 
 Use as many chapters as needed to organize your textbook content effectively.

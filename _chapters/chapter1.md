@@ -29,7 +29,7 @@ You can write multiple paragraphs to organize your content effectively.
 
 Inline code can be formatted like this: `const example = "hello world"`.
 
-Code blocks are also supported:
+Code blocks are also supported with copy-to-clipboard functionality:
 
 ```javascript
 function greet(name) {
@@ -38,6 +38,32 @@ function greet(name) {
 }
 
 greet("Reader");
+```
+
+You can also include code in different languages:
+
+```python
+def calculate_average(numbers):
+    """Calculate the average of a list of numbers."""
+    if not numbers:
+        return 0
+    return sum(numbers) / len(numbers)
+
+# Example usage
+scores = [85, 92, 78, 96, 88]
+average = calculate_average(scores)
+print(f"Average score: {average}")
+```
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
 ```
 
 ### Lists

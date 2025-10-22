@@ -21,9 +21,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Enhanced .gitignore for gem builds
 - Screenshot directory structure for theme showcase
 - Enhanced blockquotes include with JavaScript functionality:
-  - Automatic detection and styling of blockquotes based on content
+  - Automatic detection and styling of blockquotes based content
   - WCAG AAA compliant ARIA roles and labels
   - Support for 6 blockquote types with visual icons
+- Copy-to-clipboard functionality for code blocks:
+  - Automatic copy buttons on all code blocks
+  - Keyboard accessible with proper ARIA labels
+  - Visual feedback with success/error states
+  - Responsive design and dark mode support
+  - Modern clipboard API with fallback support
 
 ### Changed
 

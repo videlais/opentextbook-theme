@@ -28,6 +28,8 @@ opentextbook-theme/
 
 ## Common Commands
 
+All code blocks include copy-to-clipboard buttons:
+
 ```bash
 # Install dependencies
 bundle install

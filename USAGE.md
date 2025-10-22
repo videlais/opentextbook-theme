@@ -83,6 +83,28 @@ Each blockquote type includes:
 - Print-friendly styling
 - Screen reader support with appropriate ARIA attributes
 
+### Copy-to-Clipboard Code Blocks
+
+All code blocks automatically include copy-to-clipboard functionality:
+
+```javascript
+// This code block has a copy button in the top-right corner
+function example() {
+  console.log("Click the copy button to copy this code!");
+  return "Perfect for tutorials and documentation";
+}
+```
+
+The copy buttons feature:
+
+- **One-click copying** - Click the copy button to copy code to clipboard
+- **Keyboard accessible** - Use Tab to focus, then Enter or Space to copy
+- **Visual feedback** - Shows "Copied!" confirmation with checkmark icon
+- **Error handling** - Shows error state if copy fails
+- **Responsive design** - Text labels hidden on mobile, icons remain
+- **Theme adaptive** - Automatically adapts to light/dark modes
+- **WCAG compliant** - Proper ARIA labels and focus indicators
+
 ### Adding a New Chapter
 
 1. Create a new file in `_chapters/`:

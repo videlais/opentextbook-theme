@@ -9,6 +9,7 @@ A modern, accessible Jekyll theme designed for open textbooks and educational co
 - **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
 - **Dark Mode**: Automatic dark mode support based on system preferences
 - **Modern Styling**: Clean, professional design focused on readability
+- **Copy-to-Clipboard**: Automatic copy buttons on all code blocks with accessibility support
 - **SEO Optimized**: Built-in SEO tags and sitemap generation
 - **Print-Friendly**: Optimized print styles for offline reading
 
