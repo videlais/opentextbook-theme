@@ -5,6 +5,34 @@ All notable changes to the OpenTextbook Theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.2] - 2025-10-22
+
+### Added
+
+- Copy-to-clipboard functionality for all code blocks:
+  - Automatic copy buttons on all `<pre>`, `<code>`, and `.highlight` elements
+  - Modern clipboard API with fallback support for older browsers
+  - Keyboard accessible with Tab navigation and Enter/Space activation
+  - Visual feedback with success (checkmark) and error states
+  - WCAG 2.1 AAA compliant with proper ARIA labels and roles
+  - Responsive design with mobile-optimized button sizing
+  - Dark mode and high contrast theme support
+  - Positioned copy buttons in top-right corner of code blocks
+
+### Enhanced
+
+- Code block examples across documentation and sample chapters
+- Updated USAGE.md with comprehensive copy-code functionality documentation
+- Enhanced QUICKREF.md with copy button information
+- Improved README.md with copy-to-clipboard as a key feature
+
+### Technical Improvements
+
+- Added `_includes/copy-code-buttons.html` with comprehensive JavaScript functionality
+- Extended CSS styling in `assets/main.scss` with copy button styles
+- Mobile responsive design with text labels hidden on small screens
+- Integration with existing theme color variables and accessibility features
+
 ## [1.0.1] - 2025-10-22
 
 ### Added
@@ -119,5 +147,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Version History
 
+- **1.0.2** (October 22, 2025): Copy-to-clipboard functionality for code blocks
 - **1.0.1** (October 22, 2025): Theme packaging and distribution enhancements
 - **1.0.0** (October 22, 2025): Initial release with complete theme infrastructure from Learning React

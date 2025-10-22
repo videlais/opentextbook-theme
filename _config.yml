@@ -3,7 +3,7 @@
 # Projects using this theme should override these settings
 
 # Theme version
-version: "1.0.1"
+version: "1.0.2"
 
 # Site settings (override in your project)
 title: Your Textbook Title
